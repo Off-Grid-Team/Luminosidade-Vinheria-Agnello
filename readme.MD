@@ -26,10 +26,10 @@ Este projeto consiste em um sistema de monitoramento de luminosidade usando um s
 
 
 # 📐 Diagramas
-## 🖼️ Diagrama do Circuito
-![alt text](circ.png)
-## 🖼️ Diagrama Esquético
-![alt text](cp1edgeesq.png)
+### 🖼️ Diagrama do Circuito
+![alt text](assets/circ.png)
+### 🖼️ Diagrama Esquético
+![alt text](assets/cp1edgeesq.png)
 # 👥 Partipantes
 | Nomes         | RM             |
 | :-------------| :------------: |

@@ -1,13 +1,13 @@
 # 🍷 Vinheria Agnello - Sistema de Monitoramento (Luminosidade)
 Sistema embarcado com Arduino que realiza a leitura da luminosidade e executa ações com base nos dados coletados.
 # 📋 Descrição do Projeto
-Este projeto consiste em um sistema de monitoramento de luminosidade usando um sensor de luz (LDR) conectado a um Arduino.
-O sistema monitora a intensidade de luminosidade do ambiente, acionando LEDs para informar o usuário responsável pelos vinhos, o sistema opera da seguinte forma:
+Este projeto consiste em um sistema de monitoramento de luminosidade usando um sensor fotorresistor (LDR) conectado a um Arduino Uno. O sistema lê continuamente a intensidade luminosa do ambiente e aciona LEDs coloridos e um buzzer para informar o estado atual:
 
-- **LED Verde** → Luminosidade dentro do nível ideal (ambiente adequado para os vinhos);
-- **LED Amarelo + Buzzer (3s)** → Luminosidade em nível de atenção (buzzer reativado se a condição persistir por 5 segundos);
-- **LED Vermelho + Buzzer contínuo** → Luminosidade acima do limite crítico (ação imediata necessária).
-
+| Faixa | LED | Buzzer | Ação |
+|:-----:|:---:|:------:|:-----|
+| 🟢 Ideal | Verde **ON** | OFF | Luminosidade dentro do nível seguro para conservação dos vinhos |
+| 🟡 Atenção |  Amarelo **ON** | Buzzer(3s) | Luminosidade elevada — recomenda-se verificar o ambiente
+| 🔴 Crítico | Vermelho **ON** | ON/OFF (3s/3s) | Luminosidade acima do limite — ação imediata necessária para proteger os vinhos
 
 
 # 🛠️ Lista de Componentes
@@ -22,12 +22,14 @@ O sistema monitora a intensidade de luminosidade do ambiente, acionando LEDs par
 |1| Fotorresistor
 |1| Resistor de 1kΩ
 |3| Resistor de 220kΩ
-|| Jumpers
+|-| Jumpers Macho-Macho
 
-# 🖼️ Diagrama do Circuito
 
-# 🖼️ Diagrama Esquético
-
+# 📐 Diagramas
+## 🖼️ Diagrama do Circuito
+![alt text](circ.png)
+## 🖼️ Diagrama Esquético
+![alt text](cp1edgeesq.png)
 # 👥 Partipantes
 | Nomes         | RM             |
 | :-------------| :------------: |

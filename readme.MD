@@ -6,14 +6,14 @@ Este projeto consiste em um sistema de monitoramento de luminosidade usando um s
 | Faixa | LED | Buzzer | Ação |
 |:-----:|:---:|:------:|:-----|
 | 🟢 Ideal | Verde **ON** | OFF | Luminosidade dentro do nível seguro para conservação dos vinhos |
-| 🟡 Atenção |  Amarelo **ON** | Buzzer(3s) | Luminosidade elevada — recomenda-se verificar o ambiente
+| 🟡 Atenção |  Amarelo **ON** | OFF | Luminosidade elevada — recomenda-se verificar o ambiente
 | 🔴 Crítico | Vermelho **ON** | ON/OFF (3s/3s) | Luminosidade acima do limite — ação imediata necessária para proteger os vinhos
 
 
 # 🛠️ Lista de Componentes
 | Quantidade | Componente |
 | :----------| :--------------------: |
-|1| Arduino Uno R3
+|1| Arduino Uno
 |1| Protoboard
 |1| Led Verde
 |1| Led Amarelo
@@ -24,12 +24,26 @@ Este projeto consiste em um sistema de monitoramento de luminosidade usando um s
 |3| Resistor de 220kΩ
 |-| Jumpers Macho-Macho
 
+# ⚙️ Tecnologias Utilizadas
+
+- **Arduino IDE** — Ambiente de desenvolvimento
+- **Linguagem C/C++ (Arduino)** — Linguagem de programação
+- **Tinkercad** — Simulação e diagrama do circuito
+
+
 
 # 📐 Diagramas
 ### 🖼️ Diagrama do Circuito
 ![alt text](assets/circ.png)
 ### 🖼️ Diagrama Esquético
 ![alt text](assets/cp1edgeesq.png)
+
+# 🎥 Tutorial
+| Link |
+| :------------ |
+| https://youtu.be/sZEokD0zTMY |
+
+
 # 👥 Partipantes
 | Nomes         | RM             |
 | :-------------| :------------: |

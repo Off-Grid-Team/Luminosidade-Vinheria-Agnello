@@ -119,7 +119,7 @@ void buzzer(){
 ### 🖼️ Diagrama Esquético
 ![alt text](assets/cp1edgeesq.png)
 
-# 🎥 Tutorial
+# 🎥 Explicação
 
 | Link |
 | :------------ |

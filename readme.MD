@@ -28,11 +28,34 @@ Este projeto consiste em um sistema de monitoramento de luminosidade usando um s
 |3| Resistor de 220kΩ
 |-| Jumpers Macho-Macho
 
-# ⚙️ Tecnologias Utilizadas
+# 📦 Dependências
+
+### ⚙️ Tecnologias Utilizadas
 
 - **Arduino IDE** — Ambiente de desenvolvimento
 - **Linguagem C/C++ (Arduino)** — Linguagem de programação
 - **Tinkercad** — Simulação e diagrama do circuito
+
+
+Para compilar e carregar o código no Arduino, você precisa instalar o seguinte software:
+
+### Software
+
+| Dependência | Versão Mínima | Onde baixar | O que é |
+|:------------|:-------------:|:-----------:|:--------|
+| Arduino IDE | 1.8 ou superior | https://www.arduino.cc/en/software | Programa usado para escrever o código e enviar para o Arduino |
+| Driver CH340 (apenas Windows) | - | https://sparks.gogo.co.nz/ch340.html | Necessário para que o computador reconheça o Arduino no Windows |
+
+## 📌 Nota
+### *Bibliotecas*
+
+Este projeto **não utiliza bibliotecas externas** — apenas as bibliotecas padrão do Arduino:
+
+- `Arduino.h` — incluída automaticamente pelo Arduino IDE
+- Nenhuma instalação adicional necessária
+
+
+#
 
 # 💻 Código-Fonte
 
@@ -111,10 +134,9 @@ void buzzer(){
 ```
 
 
-
 # 📐 Diagramas
 | Link Tinkercard |
-| :------------ |
+| :---------------------------------------: |
 | https://www.tinkercad.com/things/kfGeMuysdZQ-luminosidade-vinheria?sharecode=cWJ1PjB_SdNXh-qvwNUGeE-g51mcgDhKrOTRuWNR0To |
 
 ### 🖼️ Diagrama do Circuito
@@ -125,9 +147,9 @@ void buzzer(){
 # 🎥 Explicação
 
 | Link |
-| :------------ |
+| :------------: |
 | https://youtu.be/sZEokD0zTMY |
-
+z
 
 # 👥 Partipantes
 

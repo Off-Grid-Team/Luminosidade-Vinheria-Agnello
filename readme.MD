@@ -140,16 +140,15 @@ void buzzer(){
 | https://www.tinkercad.com/things/kfGeMuysdZQ-luminosidade-vinheria?sharecode=cWJ1PjB_SdNXh-qvwNUGeE-g51mcgDhKrOTRuWNR0To |
 
 ### 🖼️ Diagrama do Circuito
-![alt text](assets/circ.png)
+![alt text](assets/images/circ.png)
 ### 🖼️ Diagrama Esquético
-![alt text](assets/cp1edgeesq.png)
+![alt text](assets/images/cp1edgeesq.png)
 
 # 🎥 Explicação
 
 | Link |
 | :------------: |
 | https://youtu.be/sZEokD0zTMY |
-z
 
 # 👥 Partipantes
 

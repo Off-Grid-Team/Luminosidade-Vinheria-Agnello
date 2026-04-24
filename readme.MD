@@ -113,6 +113,9 @@ void buzzer(){
 
 
 # 📐 Diagramas
+| Link Tinkercard |
+| :------------ |
+| https://www.tinkercad.com/things/kfGeMuysdZQ-luminosidade-vinheria?sharecode=cWJ1PjB_SdNXh-qvwNUGeE-g51mcgDhKrOTRuWNR0To |
 
 ### 🖼️ Diagrama do Circuito
 ![alt text](assets/circ.png)
